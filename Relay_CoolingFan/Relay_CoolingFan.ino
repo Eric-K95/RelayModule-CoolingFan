@@ -1,4 +1,4 @@
-//HW#9-Relay
+//Relay Module
 //Sketched by JIN-WOO KIM
 
 #include <LiquidCrystal_I2C.h>
@@ -16,7 +16,7 @@ void setup() {
   lcd.setCursor(5, 0); //first column, row #5
   lcd.print("Hello!");
   lcd.setCursor(0, 1); //second column, row #1
-  lcd.print("MECH3672-OL30 :)");
+  lcd.print("MECHATRONICS :)");
   delay(2000);   //delay of the message
   lcd.clear();   // clear screen
   lcd.setCursor(0, 0); //first column, row #1
