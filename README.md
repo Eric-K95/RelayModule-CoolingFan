@@ -1,1 +1,2 @@
 # RelayModule-CoolingFan
+A SRD-05VDC-SL-C 5V relay is a programmable electrical switch, which can be controlled by Arduino or other micro-controllers. It can be programmed to control on/off the devices when a certain event occurs. The relay acts as a bridge between Arduino board and high voltage application. The inside of the relay is connected to an 120-240V electrical switch. When the relay receives a signal, the switch will open or closed. In this exercise, control the fan when the temperature is high by using the normally closed mode of the relay.
