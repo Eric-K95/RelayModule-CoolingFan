@@ -21,7 +21,7 @@ void setup() {
   lcd.clear();   // clear screen
   lcd.setCursor(0, 0); //first column, row #1
   lcd.print("Temperature");
-  lcd.setCursor(0, 1); //second column, row #1
+  lcd.setCursor(0, 1); //first column, row #2
   lcd.print("Sensor");
   delay(2000); //delay 2000ms
   lcd.clear();
@@ -52,14 +52,14 @@ void loop() {
   //print values on lcd screen
   lcd.setCursor(0, 0); //first column, row #1
   lcd.print("tempC:"); //print name
-  lcd.setCursor(8, 0); //first column, row #10
+  lcd.setCursor(8, 0); //nineth column, row #1
   lcd.print(tempC); //print temperature in Celsius
-  lcd.setCursor(13, 0); //first column, row #7
+  lcd.setCursor(13, 0); //fourteenth column, row #1
   lcd.print(char(223)); //print units
-  lcd.setCursor(0, 1); //second coulumn, row#0
+  lcd.setCursor(0, 1); //first column, row#2
   lcd.print("tempF:"); //print name
-  lcd.setCursor(8, 1); //second coulumn, row#5
+  lcd.setCursor(8, 1); //nineth column, row#2
   lcd.print(tempF); //print temperature in Fahrenheit
-  lcd.setCursor(13, 1); //second coulumn, row#7
+  lcd.setCursor(13, 1); //fourteenth coulumn, row#7
   lcd.print(char(223));  //unit of temperature
 }
